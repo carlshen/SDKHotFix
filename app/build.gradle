@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+
 android {
     compileSdkVersion 27
     buildToolsVersion '27.0.3'
@@ -47,6 +48,6 @@ dependencies {
     //依赖library
     compile project(path: ':sdk')
 }
-repositories {
-    mavenCentral()
-}
+//repositories {
+//    mavenCentral()
+//}
